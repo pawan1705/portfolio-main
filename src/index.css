@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sevillana&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: Dancing Script;
+}
+
+body{
+  height: 100vh;
+  background: #161513;
+  color:white;
+}
+
+button{
+  padding:15px 15px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%,#B923E1 102.06%);
+    cursor: pointer; 
+    font-size: 24px;
+    font-weight: 500;
+    color:white;
+    transform: 0.6s;
+}
