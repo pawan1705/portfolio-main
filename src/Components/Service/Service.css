@@ -58,15 +58,17 @@
     transition: 0.5s;
 }
 
+
+
 @media (max-width:768px){
     .service{
         align-items: start;
-        gap:70px;
-        margin: 20px 70px;
+        gap:80px;
+        margin: 20px 20px;
     }
     .services-format{
-        gap:20px;
-        padding: 32px;
+        gap:30px;
+        padding: 26px;
     }
     .services-format h2{
         font-size: 28px;
@@ -82,5 +84,15 @@
     .services-container{
         grid-template-columns: 1fr 1fr;
         gap:20px;
+    }
+}
+
+@media (max-width:410px){
+    .services-container{
+        grid-template-columns: 1fr ;
+        gap:20px;
+    }
+    .services-format{
+        padding:10px;
     }
 }

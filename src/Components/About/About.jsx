@@ -19,8 +19,7 @@ const About = () => {
               Internship.Through my career , I have had of collaboration with
               prestigious organizations ,contributing to their success and
               growth.
-            </p>
-            <p>
+            
               My passion for frontend development is not only reflected in my
               extensive experience but also in the enthusiasm and dedication I
               bring to each project.

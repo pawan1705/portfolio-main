@@ -13,10 +13,10 @@ const Service = () => {
                 <h3>{service.s_no}</h3>
                 <h2>{service.s_name}</h2>
                 <p>{service.s_desc}</p>
-                <div className="services-read-more">
+                {/* <div className="services-read-more">
                   <p>Read More...</p>
                   <img src={assets.arrow_icon} alt="" />
-                </div>
+                </div> */}
               </div>
             )
           })

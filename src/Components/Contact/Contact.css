@@ -98,7 +98,7 @@
 {
     .contact{
         gap:50px;
-        margin: 50px 70px;
+        margin: 20px 50px;
         align-items: start;
     }
     .contact-section{
@@ -130,4 +130,19 @@
     .contact-submit{
         font-size: 20px;
     }
+}
+
+@media (max-width:400px){
+    .contact{
+        gap:40px;
+        margin: 20px 20px;
+    }
+    .contact-right input{
+        width: 300px;
+    }
+    .contact-right textarea{
+        width: 300px;
+    }
+    
+    
 }
